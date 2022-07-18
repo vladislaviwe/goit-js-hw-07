@@ -24,6 +24,6 @@ function onGalleryContainerClick(evt) {
     if (!isGalleryImage) {
         return;
     }
-
-    return new SimpleLightbox(".gallery__item", {captionsData: "alt", captionDelay: 250});
 };
+
+new SimpleLightbox(".gallery__item", {captionsData: "alt", captionDelay: 250});
